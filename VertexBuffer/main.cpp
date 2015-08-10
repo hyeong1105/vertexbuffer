@@ -283,6 +283,8 @@ void display(void) {
 	//glDisableClientState(GL_COLOR_ARRAY);
 	glDisableClientState(GL_VERTEX_ARRAY);
 
+	glutSolidSphere(0.3, 100, 100);
+
 	glutSwapBuffers();
 }
 
